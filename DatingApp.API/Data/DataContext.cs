@@ -11,6 +11,7 @@ namespace DatingApp.API.Data
         // By convention we pluralize the name of the entities, and this is what is going to be called in the Db Table
         public DbSet<Value> Values { get; set; }
         public DbSet<User> Users  {get; set; }
+        public DbSet<Photo> Photos { get; set; }
          
     }
 }

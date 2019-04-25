@@ -2,7 +2,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace DatingApp.API.Dtos
 {
-    // This is a Data Transfer Object, theay are commonly used in MVC
+    // This is a Data Transfer Object, they are commonly used in MVC
     // to map model objects into simple objects that replaced or displayed ny the view
     public class UserForRegisterDto
     {
